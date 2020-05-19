@@ -152,7 +152,7 @@ export default function BodyFirstPart() {
                   text-decoration: none;
                 `}
                 href="https://github.com/open-company"
-                target="_blank"
+                target="blank"
               >
                 Join us
               </a>

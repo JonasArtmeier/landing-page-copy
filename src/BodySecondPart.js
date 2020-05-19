@@ -113,7 +113,7 @@ export default function BodySecondPart() {
                 <a
                   class="testimonial-copy-link"
                   href="https://ifttt.com/"
-                  target="_blank"
+                  target="blank"
                   css={css`
                     display: block;
                     color: #3fbd7c;
@@ -420,16 +420,17 @@ export default function BodySecondPart() {
             </div>
             <div
               class="testimonals-commgaps-subheader"
-              css={css`    margin-top: 24px;
-    font-family: LL Circular Book Web,Muli,Arial,sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-    font-size: 24px;
-    line-height: 32px;
-    color: #34414f;
-}`}
+              css={css`
+                margin-top: 24px;
+                font-family: LL Circular Book Web, Muli, Arial, sans-serif;
+                font-weight: 300;
+                font-style: normal;
+                -webkit-font-smoothing: antialiased;
+                text-rendering: optimizeLegibility;
+                font-size: 24px;
+                line-height: 32px;
+                color: #34414f;
+              `}
             >
               Automatically share posts to Slack and email to increase coverage.
             </div>
@@ -651,7 +652,7 @@ export default function BodySecondPart() {
                   `}
                   class="testimonial-copy-link"
                   href="https://bl3ndlabs.com/"
-                  target="_blank"
+                  target="blank"
                 >
                   Bl3NDlabs.com
                 </a>

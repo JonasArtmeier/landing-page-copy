@@ -14,11 +14,11 @@ const navBar = css`
   background-color: #fffdf9;
   transition: background-color 0.18s, height 0.18s;
 `;
-const navBarOnScroll = css`
-  height: 60px;
-  box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.16);
-  background-color: #fff;
-`;
+// const navBarOnScroll = css`
+//   height: 60px;
+//   box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.16);
+//   background-color: #fff;
+// `;
 
 export default function Navigation() {
   return (
@@ -153,7 +153,6 @@ export default function Navigation() {
             href="/?no_redirect=1"
             css={css`
               background-color: #fa6452;
-              heigth: 40px;
               font-family: LL Circular Bold Web, Muli, Arial, sans-serif;
               font-weight: 400;
               font-style: normal;

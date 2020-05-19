@@ -133,7 +133,7 @@ export default function BodySecondPart() {
                   line-height: 32px;
                 `}
                 href="https://carrot.news/"
-                target="_blank"
+                target="blank"
               >
                 What’s new
               </a>
@@ -154,7 +154,7 @@ export default function BodySecondPart() {
                   text-decoration: none;
                 `}
                 href="https://github.com/open-company"
-                target="_blank"
+                target="blank"
               >
                 GitHub
               </a>
@@ -239,7 +239,6 @@ export default function BodySecondPart() {
                   text-decoration: none;
                 `}
                 href="https://twitter.com/carrot_hq"
-                target="_blank"
               >
                 Twitter
               </a>
@@ -260,7 +259,6 @@ export default function BodySecondPart() {
                   line-height: 32px;
                 `}
                 href="https://blog.carrot.io"
-                target="_blank"
               >
                 Blog
               </a>
@@ -304,7 +302,6 @@ export default function BodySecondPart() {
                   line-height: 32px;
                 `}
                 href="https://help.carrot.io/"
-                target="_blank"
               >
                 Help center
               </a>
@@ -442,7 +439,7 @@ export default function BodySecondPart() {
             >
               Privacy
             </a>{' '}
-            <a>"&"</a>
+            &{' '}
             <a
               css={css`
                 color: #34414f;
